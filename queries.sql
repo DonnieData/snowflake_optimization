@@ -1,0 +1,6 @@
+COPY INTO BLUE4 
+from @%BLUE4
+FILE_FORMAT = ( SKIP_HEADER = 1 );
+
+select * from BLUE4
+
