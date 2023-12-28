@@ -5,6 +5,10 @@
 
 
 Snowflake 
+
+- **worksheets**
+  - op_architecture
+  - 
 - **warhouses**:
     - op_warehouse_xs
     - op_warehouse_s
