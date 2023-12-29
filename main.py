@@ -1,3 +1,12 @@
+#get years in dataset
+years = requests.get("https://data.cityofnewyork.us/resource/k397-673e.json?$select=distinct fiscal_year")
+years = years.json()
+years = [i['fiscal_year'] for i in years]
+years.sort()
+
+
+
+
 for i in years: 
     #define function variables 
     url = f"https://data.cityofnewyork.us/resource/k397-673e.json?$limit={300}&$where=fiscal_year={i}"
