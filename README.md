@@ -24,6 +24,7 @@ Snowflake
 
  
 Query/ python to build results for report that is exported. 
+- create downstream table/ views for report 
 
 
 - agency_start_datae
