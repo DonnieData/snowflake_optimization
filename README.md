@@ -20,3 +20,11 @@ Snowflake
       - public
         - **tables**
           - nyc_payroll_data 
+
+
+ 
+Query/ python to build results for report that is exported. 
+
+
+- agency_start_datae
+
