@@ -28,5 +28,4 @@ Query/ python to build results for report that is exported.
 - clear cache for testing and swithcing warehouses 
 
 
-- agency_start_datae
-
+a report is refreshed daily, needs to be precise. since refreshed daily query cache is reset and full query block has to run.
