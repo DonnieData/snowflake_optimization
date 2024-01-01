@@ -23,13 +23,11 @@ create OR REPLACE TABLE op_database.public.nyc_payroll_data (
 	"total_other_pay" VARCHAR(50)
 );
 
-
-
-COPY INTO BLUE4 
-from @%BLUE4
-FILE_FORMAT = ( SKIP_HEADER = 1 );
-
-select * from BLUE4
+--load data into table 
+COPY INTO nyc_payroll_data 
+from @%nyc_payroll_data
+FILE_FORMAT = ( SKIP_HEADER = 1 )
+on_error = 'continue';
 
 
 --results from laod into job 
