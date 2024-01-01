@@ -20,3 +20,12 @@ Snowflake
       - public
         - **tables**
           - nyc_payroll_data 
+
+
+ 
+Query/ python to build results for report that is exported. 
+- create downstream table/ views for report
+- clear cache for testing and swithcing warehouses 
+
+
+a report is refreshed daily, needs to be precise. since refreshed daily query cache is reset and full query block has to run.
