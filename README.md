@@ -5,6 +5,12 @@
 
 
 Snowflake 
+working with enterprise level - differnece between levels
+
+**snowflake summary**
+- is elt platform vs elt
+- scales sotrage(data storage)  and compute(queires and jobs) to whatever you need.
+    - can select payment option for sotrage scaling "on demand"  which are slightly higher price or lower price for set ammont.
 
 - **worksheets**
   - op_architecture
